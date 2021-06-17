@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #F7F8FA;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logo {
+    height:35px;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .logo{transition: transform 1s;}
+  .logo:hover{transform:rotate(-15deg);}
+  .topnav {
+    display: inline-block;
+    padding: 3px 4px;
+    border-radius: 15px;
+    background-color:white;
+    margin-left: 70px;
+  }
+  .topnav a {
+    float: left;
+    color: #565A69;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+  #arrow{
+    float: left;
+    color: #565A69;
+    text-align: center;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .topnav a:hover {
+    font-weight: medium;
+    color: rgb(24, 21, 21);
+    /* padding: 10px 14px; */
+  }
+  .topnav a.active {
+    font-weight: bold;
+    color: rgb(68, 65, 65);
+    background-color:#EDEEF2;
+  }
+  .connectbutton {
+    font-size:16px;
+    padding:6px 15px;
+    border-radius:10px;
+    color:#FF007A;
+    background-color:#FDEAF1;
+    margin-bottom:30px;
+    display: inline-block;
+  }
+  .connectbutton:hover {
+    border:1px solid #da467c;
+  }
+  .sunicon {
+    margin-left:10px;
+    display:inline-block; 
+    background:#EDEEF2;
+    padding:7px 12px;
+    border-radius:8px;
+    cursor:pointer;
+  }
+  .sunicon:hover {
+    background:#8d8e92;
+  }
+ .dotsicon {
+    margin-left:10px;
+    display:inline-block;
+    background:#EDEEF2;
+    padding:9px 12px; 
+    border-radius:8px;
+    cursor: pointer;
+ }
+ .dotsicon:hover {
+    background:#8d8e92;
+ }
+ .dropmenu {
+  display: inline-block;
+}

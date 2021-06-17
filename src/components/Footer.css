@@ -1,0 +1,48 @@
+.footer {
+    margin-top: 50px;
+    display: flex;
+    float:right;
+}
+.number {
+    color:rgb(215, 250, 218);
+    margin: 0px 2px;
+}
+.number:hover {
+    color: rgb(101, 240, 164);
+}
+.dot {
+    background-color: rgb(101, 240, 164);
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-right:20px ;
+}
+.footersunnyicon {
+    float:right;
+    margin-left:10px;
+    background:#EDEEF2;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor: pointer; 
+}
+.footersunnyicon:hover {
+    background:#8d8e92;
+}
+
+@media only screen and (max-width: 1125px) {
+    .dropmenu {
+        float:right;
+    }
+  }
+.footerdotsicon {
+    float:right;
+    margin-left:10px;
+    background:#EDEEF2;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor: pointer;
+}
+.footerdotsicon:hover {
+    background:#8d8e92;
+}

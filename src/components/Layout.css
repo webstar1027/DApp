@@ -1,0 +1,112 @@
+  .form{
+    width: 300px;
+  }
+  .button1 {
+    padding: 5px 8px;
+    display:flex;
+    font-size:20px;
+    border-radius: 15px;
+    background-color: white;
+    border: 0px solid;
+    margin: 5px 5px;
+    cursor: pointer;
+  }
+  .buttonimg {
+    padding: 0px 5px;
+    height: 25px;
+    width: 25px;
+  }
+  .buttonarrow {
+    padding: 0px 5px;
+  }
+  .button2 {
+    padding: 8px 12px;
+    display:flex;
+    font-size:20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF0064;
+    border: 0px solid;
+    margin: 0px 5px;
+    cursor: pointer;
+    white-space: nowrap ;
+  }
+  .layoutfield {
+    width: 500px !important; 
+      display: inline-flex;
+      background-color:white;
+      padding: 10px 10px;
+      border-radius: 25px;
+      box-shadow: 3px 8px 20px #b3b1b1;
+  }
+  .inputfield {
+      display: flex;
+      padding: 15px 20px;
+      background-color: #F7F8FA;
+      margin-bottom: 5px;
+      border-radius: 18px;
+      border:1px solid #cdd0d9;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+      outline: none;
+  }
+  .input1 {
+    display:inline-flex;
+    text-align: right;
+    width: 300px;
+    height: 30px;
+    font-family: Consolas;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 0px solid;
+    background-color:#F7F8FA; ;
+  }
+  .input2 {
+    display:inline-flex;
+    text-align: right;
+    width: 255px;
+    height: 30px;
+    font-family: Consolas;
+    font-size: 30px;
+    margin-top: 10px;
+    border: 0px solid;
+    background-color:#F7F8FA;
+  }
+  input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #cdd0d9;
+  }
+  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:    #cdd0d9;
+  }
+  input::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:    #cdd0d9;
+  }
+  input:-ms-input-placeholder { /* Internet Explorer 10+ */
+      color:    #cdd0d9;
+  }
+  .button3 {
+    font-size:18px;
+    font-family: sans-serif;
+    width: 485px;
+    height: 60px;
+    border-radius: 18px;
+    color: #ff1382;
+    background-color: #ffdbe7;
+    border:0px solid;
+    cursor: pointer;
+  }
+  .button3:hover {
+    background-color:#fccadb;
+  }
+  .arrowbutton {
+    background:#F7F8FA; 
+    border:5px solid white;
+    border-radius:13px;
+    position:relative; 
+    z-index:2;
+    top:-100px;
+    cursor:pointer;
+  }
